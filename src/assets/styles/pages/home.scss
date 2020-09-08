@@ -1,0 +1,102 @@
+.landing {
+  height: 100vh;
+
+  background-image: url('../imgs/landing-img.jpg');
+  background-image: linear-gradient(
+      rgba(33, 33, 33, 0.25),
+      rgba(33, 33, 33, 0.25)
+    ),
+    url('../imgs/landing-img.jpg');
+  background-size: cover;
+  background-position: middle left;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+
+  color: $text-light;
+
+  &__container {
+    padding: 30rem 10rem 0 10rem;
+  }
+
+  &__title {
+    font-size: 6rem;
+    font-family: 'Futura';
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 0.2rem;
+  }
+
+  &__text {
+    font-size: 2rem;
+    max-width: 55rem;
+
+    margin: 2.5rem 0;
+  }
+}
+
+.future {
+  padding: 10rem;
+
+  display: flex;
+  justify-content: space-between;
+
+  &__text {
+    text-align: right;
+    max-width: 50rem;
+    h2 {
+      font-family: 'Futura';
+      font-weight: bold;
+      font-size: 4rem;
+      letter-spacing: 0.2rem;
+    }
+
+    p:first-of-type {
+      margin-top: 3rem;
+      font-size: 2.5rem;
+      color: $text-faded;
+      font-family: 'Montserrat SemiBold';
+    }
+
+    p:last-of-type {
+      margin: 3rem 0;
+      font-size: 2rem;
+    }
+  }
+}
+
+.mvc {
+  padding: 10rem;
+  display: flex;
+
+  .mvc__left {
+    flex: 1;
+    h2 {
+      font-family: 'Futura';
+      letter-spacing: 0.2rem;
+      font-size: 6rem;
+      font-weight: bold;
+      line-height: 100%;
+    }
+  }
+  &__content {
+    background-color: $grey;
+    padding: 3rem;
+    font-size: 2.5rem;
+
+    p {
+      margin-left: 10px;
+      &:first-of-type {
+        margin-left: -10px;
+        font-family: 'Montserrat SemiBold';
+      }
+
+      &:last-of-type {
+        margin-top: 3rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+      }
+    }
+  }
+}
