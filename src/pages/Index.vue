@@ -31,7 +31,7 @@
         </p>
         <p>
           Want a taste of what is to come? Tune into our streaming of Children
-          of Bel Ashram and recieve a free copy of our tagalong study guide
+          of Bel Ashram and recieve a free copy of our companion study guide
         </p>
         <g-link class="btn" to="/stream">Stream Now</g-link>
       </div>
