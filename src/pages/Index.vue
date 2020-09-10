@@ -48,12 +48,13 @@
           <p>Like What We do? Consider Supporting</p>
           <div>
             <a
-              href="https://www.mediavoicesforchildren.org/"
+              href="https://www.mediavoicesforchildren.org/donate"
               class="btn btn--mr"
               >Donate</a
             >
+
             <a
-              href="https://www.mediavoicesforchildren.org/donate"
+              href="https://www.mediavoicesforchildren.org/"
               class="btn btn--dark"
               >Learn More About Us</a
             >

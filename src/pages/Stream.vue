@@ -12,7 +12,7 @@
         allowfullscreen
       ></iframe>
       <p>Now Streaming: <span class="bold">Children Of Bal Ashram</span></p>
-      <p>Streaming Until: Sept. 14th 12:00pm</p>
+      <p>Streaming Until: Sept. 19th 5:00pm</p>
     </section>
 
     <section class="offer">
@@ -37,7 +37,7 @@
               <g-image src="~/assets/imgs/check.svg" alt="benefit" />
               <p>
                 Learn more about youth activism and how you, your students and
-                community can make get involved
+                community can get involved
               </p>
             </div>
             <div class="offer__benefit">
