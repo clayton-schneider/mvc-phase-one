@@ -2,15 +2,15 @@
   <main>
     <Nav mode="alt" />
 
-    <section class="stream">
-      <div class="stream__img"></div>
-    </section>
+    <div class="magazine">
+      <iframe
+        allowfullscreen
+        allow="fullscreen"
+        style="border:none;width:500px;height:500px;"
+        src="//e.issuu.com/embed.html?d=volume_three_with_tisbury_changes&u=mediavoices"
+      ></iframe>
+    </div>
 
-    <section class="offer">
-      <div class="offer__content">
-        <h2>The time to stream Children of Bal Ashram has passed</h2>
-      </div>
-    </section>
     <Footer />
   </main>
 </template>

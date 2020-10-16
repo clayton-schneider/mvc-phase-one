@@ -8,9 +8,9 @@
           Through Education
         </h1>
         <p class="landing__text">
-          Watch Children of Bal Ashram and download the companion study guide.
+          Read the third volume of our magazine.
         </p>
-        <g-link to="/stream" class="btn">Watch The Stream</g-link>
+        <g-link to="/read" class="btn">Read the Magazine</g-link>
       </div>
     </section>
 
@@ -30,10 +30,9 @@
           teachers and students alike.
         </p>
         <p>
-          Want a taste of what is to come? Tune into our streaming of Children
-          of Bal Ashram and receive a free copy of our companion study guide
+          Want a taste of what is to come? Read our third issue of our magazine!
         </p>
-        <g-link class="btn" to="/stream">Stream Now</g-link>
+        <g-link class="btn" to="/read">Read Now</g-link>
       </div>
     </section>
 
@@ -43,7 +42,9 @@
         <div class="mvc__content">
           <p>Coming over the next months:</p>
           <p><span class="orange">4</span> feature length documentaries</p>
-          <p><span class="orange">Quarterly</span> magazine</p>
+          <p>
+            Quarterly magazine <a href="/read" class="orange">(Out Now!)</a>
+          </p>
           <p><span class="orange">1</span> nationwide curriculum</p>
           <p>Like What We do? Consider Supporting</p>
           <div>
