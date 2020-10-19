@@ -100,3 +100,26 @@
     }
   }
 }
+
+.exhibit {
+  padding: 10rem;
+  background-image: url('../imgs/coffee-boy.jpg');
+  background-size: cover;
+  background-position: bottom right;
+  background-attachment: fixed;
+
+  h2 {
+    font-family: 'Futura';
+    font-weight: bold;
+    font-size: 4.5rem;
+    letter-spacing: 0.2rem;
+    color: $text-light;
+  }
+
+  p {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: rgba($text-light, 0.75);
+    max-width: 70rem;
+  }
+}

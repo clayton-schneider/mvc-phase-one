@@ -40,13 +40,13 @@
       <div class="mvc__left">
         <h2>At Media Voices We Do Child Rights</h2>
         <div class="mvc__content">
-          <p>Coming over the next months:</p>
-          <p><span class="orange">4</span> feature length documentaries</p>
-          <p>
-            <span class="strike">Quarterly magazine</span>
-            <g-link to="/read" class="orange"> Out Now!</g-link>
+          <p>Award-winning documentaries on child labor and slavery</p>
+          <p class="orange">Stolen Childhoods</p>
+          <p class="orange">
+            Rescuing Emmanuel
           </p>
-          <p><span class="orange">1</span> nationwide curriculum</p>
+          <p class="orange">The Same Heart</p>
+          <p class="orange">Children of Bal Ashram</p>
           <p>Like What We do? Consider Supporting</p>
           <div>
             <a
@@ -56,9 +56,9 @@
             >
 
             <a
-              href="https://www.mediavoicesforchildren.org/"
+              href="https://www.mediavoicesforchildren.org/our-films-1"
               class="btn btn--dark"
-              >Learn More About Us</a
+              >See Our Films</a
             >
           </div>
         </div>
@@ -68,6 +68,21 @@
         alt="About Us Image"
         height="700"
       />
+    </section>
+
+    <section class="exhibit">
+      <h2>Beneath the Barcode Photo Exhibit</h2>
+      <p>
+        Gorgeous travelling exhibition features images of child labor and
+        rescued children, accompanied by a downloadable action kit. To arrange
+        for an exhibit near you, call Media Voices for Children at 508/693-0752
+        or email us [mediavoicesforchildren@gmail.com]
+      </p>
+      <a
+        href="https://www.mediavoicesforchildren.org/barcode-resources"
+        class="btn"
+        >Explore the Exhibit</a
+      >
     </section>
 
     <Footer />
