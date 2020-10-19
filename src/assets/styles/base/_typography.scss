@@ -36,6 +36,11 @@ body {
   font-weight: bold;
 }
 
+.strike {
+  text-decoration: line-through;
+  text-decoration-color: $primary;
+}
+
 .bold {
   font-weight: bold;
 }

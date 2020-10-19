@@ -12,7 +12,6 @@
         allowfullscreen
       ></iframe>
       <p>Now Streaming: <span class="bold">Children Of Bal Ashram</span></p>
-      <p>Streaming Until: Sept. 19th 5:00pm</p>
     </section>
 
     <section class="offer">

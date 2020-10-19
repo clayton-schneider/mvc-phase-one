@@ -9,6 +9,9 @@
         href="https://www.mediavoicesforchildren.org/donate"
         >Donate</a
       >
+      <g-link to="/read" class="nav__link nav__link--light"
+        >Read Our Work</g-link
+      >
       <g-link to="/stream" class="nav__link nav__link--light orange"
         >Watch Our Stream</g-link
       >
@@ -27,6 +30,9 @@
         class="nav__link nav__link--dark"
         href="https://www.mediavoicesforchildren.org/donate"
         >Donate</a
+      >
+      <g-link to="/read" class="nav__link nav__link--dark"
+        >Read Our Work</g-link
       >
       <g-link to="/stream" class="nav__link nav__link--dark"
         >Watch Our Stream</g-link

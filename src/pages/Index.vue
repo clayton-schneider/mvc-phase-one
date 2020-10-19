@@ -43,7 +43,10 @@
         <div class="mvc__content">
           <p>Coming over the next months:</p>
           <p><span class="orange">4</span> feature length documentaries</p>
-          <p><span class="orange">Quarterly</span> magazine</p>
+          <p>
+            <span class="strike">Quarterly magazine</span>
+            <g-link to="/read" class="orange"> Out Now!</g-link>
+          </p>
           <p><span class="orange">1</span> nationwide curriculum</p>
           <p>Like What We do? Consider Supporting</p>
           <div>
