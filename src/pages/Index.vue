@@ -17,11 +17,10 @@
     <section class="future">
       <div class="gallery">
         <g-image src="~/assets/imgs/gallery-1.jpg" alt="Gallery Image One" />
-        <g-image src="~/assets/imgs/gallery-2.jpg" alt="Gallery Image Two" />
-        <g-image src="~/assets/imgs/gallery-3.jpg" alt="Gallery Image Three" />
-        <g-image src="~/assets/imgs/gallery-4.jpg" alt="Gallery Image Four" />
+        <g-image src="~/assets/imgs/vol-3.jpg" alt="Gallery Image Four" />
+        <g-image src="~/assets/imgs/vol-1.jpg" alt="Gallery Image Two" />
+        <g-image src="~/assets/imgs/vol-2.jpg" alt="Gallery Image Three" />
       </div>
-
       <div class="future__text">
         <h2>Education Changes The Future</h2>
         <p>
@@ -30,10 +29,10 @@
           teachers and students alike.
         </p>
         <p>
-          Want a taste of what is to come? Tune into our streaming of Children
-          of Bal Ashram and receive a free copy of our companion study guide
+          Our quarterly magazine features US and international child labor and
+          justice stories.
         </p>
-        <g-link class="btn" to="/stream">Stream Now</g-link>
+        <g-link class="btn" to="/read">Read Now</g-link>
       </div>
     </section>
 
