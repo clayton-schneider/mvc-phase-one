@@ -2,6 +2,13 @@
   <div class="footer">
     <g-image src="~/assets/imgs/logo.png" />
     <p>
+      Learn more about the Mission and Team behind Media Voices for Children by
+      visiting
+      <a href="https://www.mediavoicesforchildren.org/" target="blank"
+        >mediavoicesforchildren.org</a
+      >
+    </p>
+    <p>
       Media Voices for Children • 110 Daggett Avenue • Vineyard Haven, MA 02568
       • 508/693-0752
     </p>

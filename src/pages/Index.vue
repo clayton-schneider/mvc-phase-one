@@ -30,7 +30,7 @@
         forget. From slavery to the front lines of the war to end child labor,
         the Children of Bal Ashram inspire and are out to change the world.
         <br />
-        Winner: Special Jury Prize, Tuscon International Film Festival
+        Winner: Special Jury Prize, Tucson International Film Festival
       </p>
       <g-link to="/stream" class="btn">Watch Children of Bal Ashram</g-link>
     </div>
@@ -47,7 +47,6 @@
             children. Covers child labor world-wide including the U.S.
           </p>
 
-          <p>Access the study guide, free to download here</p>
           <div>
             <g-link to="/study-guide" class="btn btn--mr"
               >Acess The Study Guide</g-link
