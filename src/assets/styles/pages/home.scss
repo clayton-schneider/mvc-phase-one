@@ -67,7 +67,7 @@
 }
 
 .mvc {
-  padding: 10rem;
+  padding: 5rem 10rem;
   display: flex;
 
   .mvc__left {
@@ -87,10 +87,6 @@
 
     p {
       margin-left: 10px;
-      &:first-of-type {
-        margin-left: -10px;
-        font-family: 'Montserrat SemiBold';
-      }
 
       &:last-of-type {
         margin-top: 3rem;
@@ -101,11 +97,36 @@
   }
 }
 
+.movie {
+  margin: 2rem;
+  padding: 20rem 10rem;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../imgs/bal-ashram-bg.jpg');
+  background-attachment: fixed;
+  background-position: top;
+
+  h2 {
+    font-family: 'Futura';
+    font-weight: bold;
+    font-size: 4.5rem;
+    letter-spacing: 0.2rem;
+    color: $text-light;
+  }
+  p {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: rgba($text-light, 1);
+    max-width: 70rem;
+  }
+}
+
 .exhibit {
-  padding: 10rem;
-  background-image: url('../imgs/coffee-boy.jpg');
+  margin: 2rem;
+  padding: 20rem 10rem;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../imgs/beneath-barcode.jpg');
   background-size: cover;
-  background-position: bottom right;
+  background-position: top right;
   background-attachment: fixed;
 
   h2 {
@@ -119,7 +140,7 @@
   p {
     font-size: 1.8rem;
     margin-bottom: 2rem;
-    color: rgba($text-light, 0.75);
+    color: rgba($text-light, 1);
     max-width: 70rem;
   }
 }

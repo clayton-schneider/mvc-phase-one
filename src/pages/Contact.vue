@@ -10,7 +10,7 @@
           from you.
         </p>
 
-        <form name="contact" method="POST" data-netlify="true" action="">
+        <form name="contact" method="POST" data-netlify="true">
           <input type="text" placeholder="Name" />
           <input type="email" placeholder="Email" />
           <textarea placeholder="Message"></textarea>
