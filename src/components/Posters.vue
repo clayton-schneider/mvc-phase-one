@@ -1,6 +1,6 @@
 <template>
   <section class="posters">
-    <h1>THE STOLEN CHILDHOODS COLLECTION</h1>
+    <h1>The Stolen Childhoods Collection</h1>
     <p>
       These award- winning documentaries examine the causes of child slavery,
       child labor and the impacts of extreme poverty on children around the

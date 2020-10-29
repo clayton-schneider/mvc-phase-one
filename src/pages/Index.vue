@@ -89,10 +89,10 @@
     <section class="exhibit">
       <h2>Beneath the Barcode Photo Exhibit</h2>
       <p>
-        Beneath the Barcode is a photo exhibit aimed at middle schools and high
-        schools and shows through iconic photography how children factor into
-        the production, transport, manufacturing, refining and distribution of
-        all the things we eat, buy and use. The exhibit can be downloaded for
+        Beneath the Barcode is a photo exhibit aimed at middle and high schools
+        and shows through iconic photography how children factor into the
+        production, transport, manufacturing, refining and distribution of all
+        the things we eat, buy and use. The exhibit can be downloaded for
         exhibition at your school and comes with an interactive action kit.
       </p>
       <a
