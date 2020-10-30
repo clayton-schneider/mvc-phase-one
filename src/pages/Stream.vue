@@ -6,12 +6,13 @@
       <iframe
         src="https://player.vimeo.com/video/304839811"
         width="100%"
-        height="600"
         frameborder="0"
         allow="autoplay; fullscreen"
         allowfullscreen
       ></iframe>
-      <p>Now Streaming: <span class="bold">Children Of Bal Ashram</span></p>
+      <p class="paragraph">
+        Now Streaming: <span class="bold">Children Of Bal Ashram</span>
+      </p>
     </section>
 
     <Footer />

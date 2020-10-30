@@ -51,11 +51,11 @@ export default {
         {
           title: 'The Same Heart',
           date: '2015',
-          description: `At a time when one billion children live in poverty, The Same Heart
-            argues the moral imperative of acting now to raise funds for food,
-            medicine, education and climate mitigation. Nine Nobel Laureates
-            make the case for swift and decisive action to save children's
-            lives.`,
+          description: `Nearly one billion children live in poverty. Yet, year after year, development assistance funding trickles in too little, too late.
+But what if the funding mechanism were structured differently, so that the United Nations did not have to pass the hat for official development assistance, and beg nations to make good on their pledges?
+What if, instead of reacting to the emergency du jour with appeals to sentiment, the world community saw a dignified life as something every human being has a right to?
+What if a small tax on financial transactions could create a consistent pool of money to provide a baseline level of dignified existence?
+What if we had the same heart for all children, not just our own?`,
           img: 'same-heart-poster.jpg',
           link: 'https://vimeo.com/146433381',
         },
