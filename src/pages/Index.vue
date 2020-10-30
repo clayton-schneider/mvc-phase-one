@@ -1,13 +1,14 @@
 <template>
   <main>
     <Nav mode="home" />
+
     <section class="landing">
       <div class="landing__container">
-        <h1 class="landing__title">
+        <h1 class="headline headline--larger">
           Fighting For Child Rights <br />
           Through Education
         </h1>
-        <p class="landing__text">
+        <p class="paragraph landing__text">
           Welcome to Media Voices for Children&#39;s child rights learning
           platform. Here you can view our documentaries on child labor and
           access the tools and information you need to help millions of children
@@ -24,7 +25,7 @@
 
     <div class="movie">
       <h2 class="headline">Children of Bal Ashram</h2>
-      <p>
+      <p class="paragraph paragraph--smaller mb">
         Our latest documentary is a testament to the hope and resilience of
         children. Meet the Children of Bal Ashram, a family you will never
         forget. From slavery to the front lines of the war to end child labor,
@@ -37,9 +38,9 @@
 
     <section class="mvc">
       <div class="mvc__left">
-        <h2>At Media Voices We Do Child Rights</h2>
+        <h2 class="headline">At Media Voices We Do Child Rights</h2>
         <div class="mvc__content">
-          <p>
+          <p class="paragraph paragraph--larger mb">
             Dig deeper into the causes of child labor and what actions we can
             take personally to end it. Filled with apps, videos, links to
             organizations and successful programs this guide is appropriate for
@@ -54,11 +55,15 @@
           </div>
         </div>
       </div>
-      <g-image
-        src="~/assets/imgs/study-guide.jpg"
-        alt="About Us Image"
-        height="700"
-      />
+      <div class="mvc__img-container">
+        <g-image
+          class="mvc__img"
+          src="~/assets/imgs/study-guide.jpg"
+          alt="About Us Image"
+          width="500"
+          height="648"
+        />
+      </div>
     </section>
 
     <section class="future">
@@ -69,13 +74,13 @@
         <g-image src="~/assets/imgs/vol-2.jpg" alt="Gallery Image Three" />
       </div>
       <div class="future__text">
-        <h2>Education Changes The Future</h2>
-        <p>
+        <h2 class="headline">Education Changes The Future</h2>
+        <p class="paragraph paragraph--larger">
           Media Voices Quarterly Newsletter brings commentary, art, photography
           and poetry from a broad range of perspectives. Free to read online and
           download.
         </p>
-        <p>
+        <p class="paragraph">
           Our latest, Vol.3, focuses on justice for Native American communities
           and the urgent need to protect children in government detention
           centers.
@@ -87,8 +92,8 @@
     <Posters />
 
     <section class="exhibit">
-      <h2>Beneath the Barcode Photo Exhibit</h2>
-      <p>
+      <h2 class="headline">Beneath the Barcode Photo Exhibit</h2>
+      <p class="paragraph paragraph--smaller">
         Beneath the Barcode is a photo exhibit aimed at middle and high schools
         and shows through iconic photography how children factor into the
         production, transport, manufacturing, refining and distribution of all

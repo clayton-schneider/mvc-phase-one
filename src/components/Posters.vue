@@ -1,7 +1,7 @@
 <template>
   <section class="posters">
-    <h1>The Stolen Childhoods Collection</h1>
-    <p>
+    <h1 class="headline posters__text">The Stolen Childhoods Collection</h1>
+    <p class="paragraph mb posters__text">
       These award- winning documentaries examine the causes of child slavery,
       child labor and the impacts of extreme poverty on children around the
       world. Available on Vimeo for single screening or licensed to your school
@@ -13,7 +13,7 @@
         <g-image :src="require(`!!assets-loader!@images/${poster.img}`)" />
         <div class="poster__back">
           <h3>{{ poster.title }} ({{ poster.date }})</h3>
-          <p>{{ poster.description }}</p>
+          <p class="mb">{{ poster.description }}</p>
           <a :href="poster.link" class="btn">Learn More</a>
         </div>
       </div>

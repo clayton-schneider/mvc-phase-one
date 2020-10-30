@@ -2,7 +2,7 @@
   <main>
     <Nav mode="alt" />
     <section class="read">
-      <h2>Read our latest quarterly magazine</h2>
+      <h2 class="headline">Read our latest quarterly magazine</h2>
       <iframe
         allowfullscreen
         allow="fullscreen"

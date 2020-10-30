@@ -2,17 +2,17 @@
   padding: 0 10rem;
   max-width: 100%;
 
-  h2 {
-    font-family: 'Futura';
-    font-weight: bold;
-    font-size: 4.5rem;
-    letter-spacing: 0.2rem;
+  @media only screen and (max-width: 800px) {
+    text-align: center;
   }
 }
 .archive {
   margin-top: 2rem;
   display: flex;
   justify-content: space-around;
+  @media only screen and (max-width: 800px) {
+    flex-direction: column;
+  }
 }
 
 .volume {

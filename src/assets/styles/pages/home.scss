@@ -1,5 +1,5 @@
 .landing {
-  height: 100vh;
+  min-height: 100vh;
 
   background-image: url('../imgs/landing-img.jpg');
   background-image: linear-gradient(
@@ -18,21 +18,21 @@
 
   &__container {
     padding: 30rem 10rem 0 10rem;
+    @media only screen and (max-width: 650px) {
+      padding: 20rem 2.5rem 0 2.5rem;
+      text-align: center;
+    }
   }
 
   &__title {
-    font-size: 6rem;
-    font-family: 'Futura';
-    font-weight: bold;
-    line-height: 1.25;
-    letter-spacing: 0.2rem;
   }
 
   &__text {
-    font-size: 2rem;
     max-width: 55rem;
-
     margin: 2.5rem 0;
+    @media only screen and (max-width: 650px) {
+      max-width: 100%;
+    }
   }
 }
 
@@ -42,26 +42,31 @@
   display: flex;
   justify-content: space-between;
 
+  @media only screen and (max-width: 1250px) {
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem 2rem;
+  }
+  @media only screen and (max-width: 800px) {
+    padding: 2rem;
+  }
+
   &__text {
     text-align: right;
     max-width: 50rem;
-    h2 {
-      font-family: 'Futura';
-      font-weight: bold;
-      font-size: 4rem;
-      letter-spacing: 0.2rem;
+
+    @media only screen and (max-width: 1250px) {
+      margin-top: 2rem;
+      text-align: center;
+      max-width: 100%;
     }
 
     p:first-of-type {
       margin-top: 3rem;
-      font-size: 2.5rem;
-      // color: $text-faded;
-      // font-family: 'Montserrat SemiBold';
     }
 
     p:last-of-type {
       margin: 3rem 0;
-      font-size: 2rem;
     }
   }
 }
@@ -70,29 +75,44 @@
   padding: 5rem 10rem;
   display: flex;
 
+  @media only screen and (max-width: 1000px) {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    padding: 5rem 0;
+    text-align: center;
+  }
+
   .mvc__left {
     flex: 1;
     h2 {
-      font-family: 'Futura';
-      letter-spacing: 0.2rem;
-      font-size: 4.5rem;
-      font-weight: bold;
       line-height: 100%;
     }
   }
+
   &__content {
     background-color: $grey;
     padding: 3rem;
-    font-size: 2.5rem;
+    min-width: 60rem;
+
+    @media only screen and (max-width: 600px) {
+      min-width: 30rem;
+    }
 
     p {
       margin-left: 10px;
+    }
+  }
 
-      // &:last-of-type {
-      //   margin-top: 3rem;
-      //   font-size: 1.8rem;
-      //   font-weight: bold;
-      // }
+  &__img-container {
+  }
+
+  &__img {
+    object-fit: cover;
+    @media only screen and (max-width: 1250px) {
+      max-width: 100%;
     }
   }
 }
@@ -105,17 +125,16 @@
   background-attachment: fixed;
   background-position: top;
 
+  @media only screen and (max-width: 800px) {
+    padding: 10rem 5rem;
+    text-align: center;
+  }
+
   h2 {
-    font-family: 'Futura';
-    font-weight: bold;
-    font-size: 4.5rem;
-    letter-spacing: 0.2rem;
     color: $text-light;
   }
   p {
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
-    color: rgba($text-light, 1);
+    color: $text-light;
     max-width: 70rem;
   }
 }
@@ -129,16 +148,16 @@
   background-position: top right;
   background-attachment: fixed;
 
+  @media only screen and (max-width: 800px) {
+    padding: 10rem 5rem;
+    text-align: center;
+  }
+
   h2 {
-    font-family: 'Futura';
-    font-weight: bold;
-    font-size: 4.5rem;
-    letter-spacing: 0.2rem;
     color: $text-light;
   }
 
   p {
-    font-size: 1.8rem;
     margin-bottom: 2rem;
     color: rgba($text-light, 1);
     max-width: 70rem;

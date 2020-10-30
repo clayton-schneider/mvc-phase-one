@@ -1,23 +1,30 @@
 .posters {
   padding: 10rem 2rem;
 
-  h1 {
-    font-family: 'Futura';
-    font-weight: bold;
-    font-size: 4.5rem;
-    letter-spacing: 0.2rem;
+  &__text {
+    @media only screen and (max-width: 900px) {
+      text-align: center;
+    }
   }
-
   p {
-    font-size: 1.8rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
     max-width: 75%;
+    @media only screen and (max-width: 900px) {
+      max-width: 100%;
+    }
   }
 
   &__grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+
+    @media only screen and (max-width: 1300px) {
+      margin: 0 auto;
+      max-width: 80%;
+      grid-template-columns: repeat(2, 1fr);
+    }
+    @media only screen and (max-width: 700px) {
+      grid-template-columns: 1fr;
+    }
   }
 }
 
@@ -53,6 +60,16 @@
       h3,
       p {
         visibility: visible;
+        @media only screen and (max-width: 900px) {
+          text-align: center;
+        }
+      }
+    }
+
+    @media only screen and (max-width: 900px) {
+      .btn {
+        text-align: center;
+        display: block;
       }
     }
 
@@ -66,6 +83,7 @@
       font-size: 1.6rem;
       color: $text-light;
       visibility: hidden;
+      max-width: 100%;
     }
   }
 }
