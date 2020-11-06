@@ -14,7 +14,7 @@
         <div class="poster__back">
           <h3>{{ poster.title }} ({{ poster.date }})</h3>
           <p class="mb">{{ poster.description }}</p>
-          <a :href="poster.link" class="btn">Learn More</a>
+          <a :href="poster.link" target="_blank" class="btn">Learn More</a>
         </div>
       </div>
     </div>
@@ -57,7 +57,7 @@ What if, instead of reacting to the emergency du jour with appeals to sentiment,
 What if a small tax on financial transactions could create a consistent pool of money to provide a baseline level of dignified existence?
 What if we had the same heart for all children, not just our own?`,
           img: 'same-heart-poster.jpg',
-          link: 'https://vimeo.com/146433381',
+          link: 'https://vimeo.com/ondemand/thesameheart',
         },
         {
           title: 'Children of Bal Ashram',
