@@ -1,7 +1,9 @@
 .landing {
   min-height: 100vh;
 
-  background-image: url('../imgs/landing-img.jpg');
+  background: url('../imgs/landing-img.jpg');
+  background: linear-gradient(rgba(33, 33, 33, 0.25), rgba(33, 33, 33, 0.25)),
+    url('../imgs/landing-img.jpg');
   background: -o-linear-gradient(rgba(33, 33, 33, 0.25), rgba(33, 33, 33, 0.25)),
     url('../imgs/landing-img.jpg');
   background: -ms-linear-gradient(
@@ -19,14 +21,12 @@
       rgba(33, 33, 33, 0.25)
     ),
     url('../imgs/landing-img.jpg');
-  background: linear-gradient(rgba(33, 33, 33, 0.25), rgba(33, 33, 33, 0.25)),
-    url('../imgs/landing-img.jpg');
   -o-background-size: cover;
   -ms-background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  background-position: middle left;
+  background-position: center left;
   background-attachment: fixed;
 
   display: flex;
@@ -139,6 +139,8 @@
   margin: 2rem;
   padding: 20rem 10rem;
   background: url('../imgs/bal-ashram-bg.jpg');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../imgs/bal-ashram-bg.jpg');
   background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../imgs/bal-ashram-bg.jpg');
   background: -webkit-linear-gradient(
@@ -151,8 +153,6 @@
     url('../imgs/bal-ashram-bg.jpg');
   background: -ms-linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../imgs/bal-ashram-bg.jpg');
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('../imgs/bal-ashram-bg.jpg');
   -o-background-size: cover;
   -ms-background-size: cover;
   -webkit-background-size: cover;
@@ -164,6 +164,18 @@
   @media only screen and (max-width: 800px) {
     padding: 10rem 5rem;
     text-align: center;
+  }
+  @media only screen and (max-width: 450px) {
+    padding: 10rem 2.5rem;
+    .btn {
+      font-size: 1.4rem;
+    }
+  }
+  @media only screen and (max-width: 350px) {
+    padding: 10rem 1.5rem;
+    .btn {
+      font-size: 1.2rem;
+    }
   }
 
   h2 {
@@ -179,6 +191,8 @@
   margin: 2rem;
   padding: 20rem 10rem;
   background: url('../imgs/beneath-barcode.jpg');
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../imgs/beneath-barcode.jpg');
   background: -o-linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../imgs/beneath-barcode.jpg');
   background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -190,8 +204,6 @@
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
-    url('../imgs/beneath-barcode.jpg');
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../imgs/beneath-barcode.jpg');
   -o-background-size: cover;
   -ms-background-size: cover;
