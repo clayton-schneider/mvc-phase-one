@@ -29,6 +29,10 @@
   background-position: center left;
   background-attachment: fixed;
 
+  @supports (-webkit-touch-callout: none) {
+    background-attachment: scroll;
+  }
+
   display: flex;
   flex-direction: column;
 
@@ -161,6 +165,10 @@
   background-position: top;
   background-attachment: fixed;
 
+  @supports (-webkit-touch-callout: none) {
+    background-attachment: scroll;
+  }
+
   @media only screen and (max-width: 800px) {
     padding: 10rem 5rem;
     text-align: center;
@@ -205,6 +213,10 @@
       rgba(0, 0, 0, 0.5)
     ),
     url('../imgs/beneath-barcode.jpg');
+
+  @supports (-webkit-touch-callout: none) {
+    background-attachment: scroll;
+  }
   -o-background-size: cover;
   -ms-background-size: cover;
   -webkit-background-size: cover;

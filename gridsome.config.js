@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'Learn Child Rights',
   plugins: [],
   chainWebpack: config => {
     config.resolve.alias.set('@images', '@/assets/imgs');
