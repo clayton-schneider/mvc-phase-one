@@ -2,30 +2,24 @@
   min-height: 100vh;
 
   background-image: url('../imgs/landing-img.jpg');
-  background-image: -o-linear-gradient(
+  background: -o-linear-gradient(rgba(33, 33, 33, 0.25), rgba(33, 33, 33, 0.25)),
+    url('../imgs/landing-img.jpg');
+  background: -ms-linear-gradient(
       rgba(33, 33, 33, 0.25),
       rgba(33, 33, 33, 0.25)
     ),
     url('../imgs/landing-img.jpg');
-  background-image: -ms-linear-gradient(
+  background: -webkit-linear-gradient(
       rgba(33, 33, 33, 0.25),
       rgba(33, 33, 33, 0.25)
     ),
     url('../imgs/landing-img.jpg');
-  background-image: -webkit-linear-gradient(
+  background: -moz-linear-gradient(
       rgba(33, 33, 33, 0.25),
       rgba(33, 33, 33, 0.25)
     ),
     url('../imgs/landing-img.jpg');
-  background-image: -moz-linear-gradient(
-      rgba(33, 33, 33, 0.25),
-      rgba(33, 33, 33, 0.25)
-    ),
-    url('../imgs/landing-img.jpg');
-  background-image: linear-gradient(
-      rgba(33, 33, 33, 0.25),
-      rgba(33, 33, 33, 0.25)
-    ),
+  background: linear-gradient(rgba(33, 33, 33, 0.25), rgba(33, 33, 33, 0.25)),
     url('../imgs/landing-img.jpg');
   -o-background-size: cover;
   -ms-background-size: cover;
@@ -144,36 +138,20 @@
 .movie {
   margin: 2rem;
   padding: 20rem 10rem;
-  background-image: url('../imgs/bal-ashram-bg.jpg');
-  background-image: -moz-linear-gradient(
+  background: url('../imgs/bal-ashram-bg.jpg');
+  background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../imgs/bal-ashram-bg.jpg');
+  background: -webkit-linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
     url('../imgs/bal-ashram-bg.jpg');
-  background-image: -webkit-linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
+  background: -o-linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../imgs/bal-ashram-bg.jpg');
-  background-image: -o-linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
+  background: -ms-linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../imgs/bal-ashram-bg.jpg');
-  background-image: -ms-linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('../imgs/bal-ashram-bg.jpg');
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../imgs/bal-ashram-bg.jpg');
   -o-background-size: cover;
   -ms-background-size: cover;
@@ -200,36 +178,20 @@
 .exhibit {
   margin: 2rem;
   padding: 20rem 10rem;
-  background-image: url('../imgs/beneath-barcode.jpg');
-  background-image: -o-linear-gradient(
+  background: url('../imgs/beneath-barcode.jpg');
+  background: -o-linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../imgs/beneath-barcode.jpg');
+  background: -moz-linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../imgs/beneath-barcode.jpg');
+  background: -ms-linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../imgs/beneath-barcode.jpg');
+  background: -webkit-linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ),
     url('../imgs/beneath-barcode.jpg');
-  background-image: -moz-linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('../imgs/beneath-barcode.jpg');
-  background-image: -ms-linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('../imgs/beneath-barcode.jpg');
-  background-image: -webkit-linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url('../imgs/beneath-barcode.jpg');
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../imgs/beneath-barcode.jpg');
   -o-background-size: cover;
   -ms-background-size: cover;
