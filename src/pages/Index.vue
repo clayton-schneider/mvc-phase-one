@@ -81,9 +81,7 @@
           download.
         </p>
         <p class="paragraph">
-          Our latest, Vol.3, focuses on justice for Native American communities
-          and the urgent need to protect children in government detention
-          centers.
+            Our latest, Vol. 4, focuses on the environment, Indigenous voices, child labor in cocoa and agriculture.
         </p>
         <g-link class="btn" to="/read">Read Now</g-link>
       </div>
