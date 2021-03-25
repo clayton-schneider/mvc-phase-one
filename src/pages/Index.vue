@@ -50,7 +50,7 @@
 
           <div>
             <g-link to="/study-guide" class="btn btn--mr"
-              >Acess The Study Guide</g-link
+              >Access The Study Guide</g-link
             >
           </div>
         </div>
