@@ -29,12 +29,7 @@
     </div>
 
     <h3 class="referral">
-      Built & Developed By
-      <a
-        href="https://simply-sprout.com/?utm_source=MVC&utm_medium=referral&utm_campaign=Client%20Sites%20Campaign"
-        target="_blank"
-        >Simply Sprout</a
-      >
+      Built & Developed By Simply Sprout
     </h3>
   </div>
 </template>
